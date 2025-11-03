@@ -1,6 +1,8 @@
 #STEP-1: INSTALLING GIT JAVA-17 version AND INSTALL GIT
-yum install git java-17-amazon-corretto -y
+yum install  java-17-amazon-corretto -y
+java --version
 yum install git -y
+git --version
 
 #STEP-2: GETTING THE REPO (jenkins.io --> download -- > redhat)
 sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
